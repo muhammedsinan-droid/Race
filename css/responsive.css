@@ -1,0 +1,139 @@
+/* HIDE DESKTOP NAV ON MOBILE */
+@media (max-width: 768px) {
+    .header-right .nav {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    .header {
+        padding: 8px 0;
+    }
+}
+
+
+/* HERO MOBILE FIX */
+@media (max-width: 768px) {
+    h1.hero-title {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    h4.hero-sub {
+        font-size: 18px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+
+    input#tracking-no {
+        width: 100%;
+    }
+
+    input#track-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1.hero-title {
+        font-size: 28px;
+    }
+
+    h4.hero-sub {
+        font-size: 16px;
+    }
+}
+
+/* about section  */
+
+@media (max-width: 768px) {
+    h2.titles {
+        font-size: 32px;
+        max-width: 100%;
+    }
+
+    .about-text {
+        text-align: left;
+    }
+
+    .about-card .col-md-6 {
+        border: none !important;
+        text-align: center;
+        padding: 15px 0;
+    }
+}
+
+/* why use */
+
+@media (max-width: 768px) {
+    h2.why-title {
+        font-size: 32px;
+    }
+
+    .why-image {
+        height: 350px;
+    }
+
+    .image-data {
+        gap: 60px;
+    }
+}
+
+/* carousal card  */
+
+@media (max-width: 768px) {
+    .c-card {
+        padding: 4px;
+    }
+}
+
+/* service section  */
+
+@media (max-width: 768px) {
+    #services .container {
+        padding: 30px 15px;
+    }
+
+    .service_cards div {
+        padding: 12px;
+    }
+
+    #sec1 .row {
+        justify-content: center;
+    }
+
+    #sec1 .col-md-3 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    #sec1 .col-md-3 {
+        width: 100%;
+    }
+}
+
+/* footer */
+
+@media (max-width: 768px) {
+    footer .row {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .ft_links ul,
+    .contact_li {
+        align-items: center;
+    }
+}

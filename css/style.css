@@ -188,11 +188,11 @@ nav ul {
     }
 }
 
-@media screen and (max-width:475px) {
+@media screen and (max-width:475px){
     .mobile-menu {
         width: 100%;
     }
-
+}
 
 
 /* Hero Section */
@@ -657,9 +657,19 @@ footer li img{
 }
 
 
-
-
 .ft_label {
     display: flex;
     gap: 5px;
+}
+
+/* GLOBAL RESPONSIVE FIXES */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
